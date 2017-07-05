@@ -1,0 +1,147 @@
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #d5d5d5; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #d5d5d5;
+  opacity: 1; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #d5d5d5;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #d5d5d5; }
+
+header {
+  padding: 0.35rem 0 0.39rem;
+  height: 0.9rem; }
+  header .avatar {
+    float: left;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-left: 0.48rem; }
+    header .avatar img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  header input {
+    margin-left: 0.48rem;
+    margin-right: 0.54rem;
+    float: left;
+    width: 6.38rem;
+    padding: 0.23rem 0 0.23rem 1rem;
+    height: 0.44rem;
+    border: none;
+    background: #f8f8f8 url("../images/treasure_input_beijing.png") no-repeat 0.36rem 0.23rem;
+    -webkit-background-size: 0.44rem 0.44rem;
+    background-size: 0.44rem 0.44rem;
+    outline: none;
+    font: 600 0.34rem/0.44rem "";
+    border-radius: 70px; }
+  header .menu {
+    float: left;
+    display: block;
+    width: 0.6rem;
+    height: 0.9rem; }
+    header .menu img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+
+#banner {
+  width: 100%;
+  height: 3.7rem; }
+  #banner ul li a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+    #banner ul li a img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+
+nav {
+  padding: 0 0.48rem;
+  border-bottom: 0.01rem solid #eee; }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    nav ul li {
+      flex: 0 0 25%;
+      padding: 0.36rem 0 0.5rem 0; }
+      nav ul li a img {
+        display: block;
+        width: 2.4rem;
+        height: 1.72rem; }
+
+.fenjiexian {
+  width: 100%;
+  height: 0.3rem;
+  background: #f9f9f9; }
+
+#main .dqjx h2 {
+  padding-left: 0.48rem;
+  font: 700 0.42rem/1.5rem "";
+  color: #333; }
+#main .dqjx ul {
+  padding-left: 0.48rem; }
+  #main .dqjx ul li {
+    border-top: 0.01rem solid #eee;
+    padding: 0.58rem 0 0.57rem;
+    height: 1.23rem; }
+    #main .dqjx ul li a .product-l {
+      float: left;
+      width: 3.4rem; }
+      #main .dqjx ul li a .product-l p {
+        font: 900 0.5rem/0.62rem "";
+        color: #f88220; }
+      #main .dqjx ul li a .product-l span {
+        display: block;
+        margin-top: 0.29rem;
+        font: 700 0.32rem/0.32rem "";
+        color: #999; }
+    #main .dqjx ul li a .product-r {
+      float: left;
+      margin-left: 0.43rem;
+      border-left: 0.01rem solid #eee;
+      padding-left: 0.5rem; }
+      #main .dqjx ul li a .product-r p {
+        font: 600 0.44rem/0.68rem "";
+        color: #666; }
+      #main .dqjx ul li a .product-r span {
+        display: block;
+        margin-top: 0.23rem;
+        font: 700 0.32rem/0.32rem "";
+        color: #999; }
+  #main .dqjx ul li:nth-child(3) a .product-r span {
+    color: #ff7e12; }
+#main .dqjx .more {
+  display: block;
+  height: 1.5rem;
+  border-top: 0.01rem solid #f0f0f0;
+  font: 600 0.36rem/1.49rem "";
+  color: #4d8dee;
+  text-align: center; }
+
+footer {
+  width: 100%;
+  height: 1.1rem;
+  position: fixed;
+  bottom: 0;
+  padding: 0.22rem 0 0.18rem;
+  background: white;
+  border-top: 0.01rem solid #f5f5f5; }
+  footer .module {
+    padding: 0 0.5rem;
+    display: flex;
+    justify-content: space-between; }
+    footer .module a img {
+      width: 1.2rem;
+      height: 1.1rem; }
+
+/*# sourceMappingURL=treasure.css.map */

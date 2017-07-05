@@ -1,0 +1,139 @@
+@charset "utf-8";
+#banner{
+  .swiper-wrapper{
+      width: 100%;
+      height: 7.76rem;
+      .swiper-slide{
+		  a{
+			  img{
+					display: block;
+					width: 100%;
+					height: 100%;
+			  }
+		  }
+
+      }
+  }
+}
+#main{
+	margin-bottom: 1.5rem;
+	.login{
+		padding: 0.54rem 2.25rem;
+		height: 1.2rem;
+		a{
+			display: block;
+			width:6.3rem ;
+			height: 1.2rem;
+			font:0.4rem/1.2rem "" ;
+			color: white;
+			background-color:#4e8dee ;
+			border-radius: 70px;
+			text-align: center;
+		}
+	}
+	.fenjiexian{
+		width: 100%;
+		height:0.3rem;
+		background: #f5f5f5;
+	}
+	.gift{
+		padding:0 0.5rem 0.47rem;
+		h2{
+			font:700 0.42rem/1.64rem "";
+			color: #414141;
+		}
+		a{
+			img{
+				display: block;
+				width:9.8rem;
+				height:2.88rem;
+			}
+		}
+	}
+	.gift_bag{
+
+		h2{
+			padding:0 0.5rem;
+			font:700 0.42rem/1.66rem "";
+			color: #414141;
+		}
+		ul{
+			padding:0 0.5rem;
+			li{
+				height:1.32rem;
+				padding:0.48rem 0 0.5rem;
+
+				a{
+					img{
+						float: left;
+						width: 1.32rem;
+						height: 1.32rem;
+						margin-right: 0.5rem;
+						padding-bottom: 0.5rem;
+					}
+					.details{
+						width:7.8rem ;
+						float: left;
+						height:1.21rem;
+						padding-bottom: 0.6rem;
+						border-bottom: 0.01rem solid #f0f0f0 ;
+						p{
+							float: left;
+							width: 7.8rem;
+							font: 600 0.42rem/0.74rem "" ;
+							color: #414141;
+						}
+						span{
+							float: left;
+							width: 7.8rem;
+							font:600 0.32rem/0.48rem "";
+							color: #989898;
+						}
+					}
+
+				}
+			}
+			li:nth-child(3){
+				.details{
+					border-bottom: none;
+		}
+	}
+}
+.more{
+			display: block;
+			height: 1.49rem;
+			border-top:0.01rem solid #f0f0f0 ;
+			font:600 0.36rem/1.49rem "";
+			color: #4d8dee;
+			text-align: center;
+		}
+	}
+	.beijing{
+		background:#f5f5f5 ;
+		img{
+			display: block;
+			width: 9.8rem;
+			height:2.8rem;
+		}
+	}
+}
+footer{
+  	width: 100%;
+  	height: 1.1rem;
+  	position: fixed;
+  	bottom: 0;
+  	padding:0.22rem 0 0.18rem;
+  	background: white;
+	border-top:0.01rem solid #f5f5f5;
+	.module{
+	  	padding: 0 0.5rem;
+	  	display: flex;
+	  	justify-content: space-between;
+	  	a{
+		  	img{
+			  	width: 1.2rem;
+			  	height:1.1rem;
+		  	}
+	  	}
+  	}
+}
