@@ -84,49 +84,51 @@ nav {
   height: 0.3rem;
   background: #f9f9f9; }
 
-#main .dqjx h2 {
-  padding-left: 0.48rem;
-  font: 700 0.42rem/1.5rem "";
-  color: #333; }
-#main .dqjx ul {
-  padding-left: 0.48rem; }
-  #main .dqjx ul li {
-    border-top: 0.01rem solid #eee;
-    padding: 0.58rem 0 0.57rem;
-    height: 1.23rem; }
-    #main .dqjx ul li a .product-l {
-      float: left;
-      width: 3.4rem; }
-      #main .dqjx ul li a .product-l p {
-        font: 900 0.5rem/0.62rem "";
-        color: #f88220; }
-      #main .dqjx ul li a .product-l span {
-        display: block;
-        margin-top: 0.29rem;
-        font: 700 0.32rem/0.32rem "";
-        color: #999; }
-    #main .dqjx ul li a .product-r {
-      float: left;
-      margin-left: 0.43rem;
-      border-left: 0.01rem solid #eee;
-      padding-left: 0.5rem; }
-      #main .dqjx ul li a .product-r p {
-        font: 600 0.44rem/0.68rem "";
-        color: #666; }
-      #main .dqjx ul li a .product-r span {
-        display: block;
-        margin-top: 0.23rem;
-        font: 700 0.32rem/0.32rem "";
-        color: #999; }
-  #main .dqjx ul li:nth-child(3) a .product-r span {
-    color: #ff7e12; }
-#main .dqjx .more {
-  display: block;
-  height: 1.5rem;
-  border-top: 0.01rem solid #f0f0f0;
-  font: 600 0.36rem/1.49rem "";
-  color: #4d8dee;
-  text-align: center; }
+#main {
+  margin-bottom: 1.5rem; }
+  #main .dqjx h2 {
+    padding-left: 0.48rem;
+    font: 700 0.42rem/1.5rem "";
+    color: #333; }
+  #main .dqjx ul {
+    padding-left: 0.48rem; }
+    #main .dqjx ul li {
+      border-top: 0.01rem solid #eee;
+      padding: 0.58rem 0 0.57rem;
+      height: 1.23rem; }
+      #main .dqjx ul li a .product-l {
+        float: left;
+        width: 3.4rem; }
+        #main .dqjx ul li a .product-l p {
+          font: 900 0.5rem/0.62rem "";
+          color: #f88220; }
+        #main .dqjx ul li a .product-l span {
+          display: block;
+          margin-top: 0.29rem;
+          font: 700 0.32rem/0.32rem "";
+          color: #999; }
+      #main .dqjx ul li a .product-r {
+        float: left;
+        margin-left: 0.43rem;
+        border-left: 0.01rem solid #eee;
+        padding-left: 0.5rem; }
+        #main .dqjx ul li a .product-r p {
+          font: 600 0.44rem/0.68rem "";
+          color: #666; }
+        #main .dqjx ul li a .product-r span {
+          display: block;
+          margin-top: 0.23rem;
+          font: 700 0.32rem/0.32rem "";
+          color: #999; }
+    #main .dqjx ul li:nth-child(3) a .product-r span {
+      color: #ff7e12; }
+  #main .dqjx .more {
+    display: block;
+    height: 1.5rem;
+    border-top: 0.01rem solid #f0f0f0;
+    font: 600 0.36rem/1.49rem "";
+    color: #4d8dee;
+    text-align: center; }
 
 footer {
   width: 100%;
