@@ -1,0 +1,163 @@
+@charset "utf-8";
+::-webkit-input-placeholder { /* WebKit browsers */
+	color:    #666;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:    #666;
+	opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:    #666;
+	opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color:    #666;
+}
+
+header{
+	position: fixed;
+	left: 0;
+	top:0;
+	width: 9.84rem;
+	padding:0.38rem 0.48rem 0.39rem;
+	height: 0.62rem;
+	border-bottom: 0.01rem solid #eee;
+	background: #fff;
+	.back{
+		float: left;
+		display: block;
+		width:0.36rem ;
+		height: 0.62rem;
+	}
+	h2{
+		float: right;
+		font:600 0.44rem/0.62rem "";
+		color: #666;
+		margin-right: 0.9rem;
+	}
+	.setting{
+		float: right;
+		display: block;
+		width:0.43rem ;
+		height: 0.62rem;
+		margin-right: 0.1rem;
+	}
+}
+#main {
+	margin: 2.01rem 0 1.32rem;
+	.main_content{
+		h1 {
+			padding: 0 0.48rem;
+			font: 900 0.62rem/0.87rem "";
+			color: #1b1b1b;
+		}
+		.via_auther_guanzhu {
+			margin-top: 0.4rem;
+			padding: 0 0.48rem;
+			.via {
+				display: block;
+				float: left;
+				width: 0.69rem;
+				height: 0.69rem;
+			}
+			.auther {
+				font: 600 0.3rem/0.69rem "";
+				color: #666;
+				float: left;
+				margin-left: 0.17rem;
+			}
+			.guanzhu {
+				float: right;
+				display: block;
+				text-align: center;
+				width: 1.46rem;
+				height: 0.67rem;
+				border: 0.01rem solid #508bf1;
+				border-radius: 0.4rem;
+				font: 0.28rem/0.67rem "";
+				color: #508bf1;
+			}
+		}
+		span {
+			padding: 0 0.48rem;
+			margin-top: 0.57rem;
+			display: block;
+			font: 600 0.33rem/0.33rem "";
+			color: #999;
+		}
+		.stitle {
+			margin: 0.64rem 0 0.74rem;
+			padding: 0 0.48rem;
+			img {
+				float: left;
+				display: block;
+				width: 0.86rem;
+				height: 1.24rem;
+			}
+			p {
+				float: right;
+				width: 8.5rem;
+				height: 1.24rem;
+				font: 600 0.38rem/0.62rem "";
+				color: #666;
+			}
+		}
+		.contents {
+			margin-top: 0.2rem;
+			padding: 0 0.48rem;
+			font: 500 0.44rem/0.84rem "";
+			color: #1b1b1b;
+			letter-spacing: 0.02rem;
+			margin-bottom: 0.8rem;
+		}
+		h4 {
+			margin-bottom: 1.11rem;
+			padding: 0 0.48rem 0 1.06rem;
+			background: url("../images/fan_dian.png") no-repeat 0.48rem 0;
+			background-size: 0.12rem 0.86rem;
+			font: 700 0.48rem/0.86rem "";
+			color: #1b1b1b;
+		}
+		.product {
+			display: block;
+			width: 100%;
+			height: 11.4rem;
+		}
+		h3{
+			padding:0 0.48rem;
+			font: 900 0.4rem/1.2rem "";
+			color: #1b1b1b;
+		}
+	}
+}
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 0.32rem 0.48rem;
+	background: #fff;
+	width: 9.84rem;
+	input{
+		float: left;
+		border: none;
+		border-right: 0.01rem solid #eee;
+		font:700 0.36rem/0.68rem "";
+		color: #000;
+		outline: none;
+		width: 6.86rem;
+	}
+	.message{
+		float: right;
+		margin-right: 1.12rem;
+		display: block;
+		width:0.53rem ;
+		height: 0.68rem;
+	}
+	.praise{
+		float: right;
+		display: block;
+		width:0.52rem ;
+		height: 0.68rem;
+	}
+
+}

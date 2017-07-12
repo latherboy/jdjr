@@ -1,0 +1,373 @@
+@charset "utf-8";
+::-webkit-input-placeholder { /* WebKit browsers */
+	color:    #d5d5d5;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:    #d5d5d5;
+	opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:    #d5d5d5;
+	opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color:    #d5d5d5;
+}
+header {
+	position: fixed;
+	left: 0;
+	top:0;
+	width:10.8rem;
+	background: #fff;
+	z-index: 999;
+	padding: 0.35rem 0 0.39rem;
+	height: 0.9rem;
+	.avatar {
+		float: left;
+		width: 0.9rem;
+		height: 0.9rem;
+		margin-left: 0.48rem;
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	input {
+		margin-left: 0.48rem;
+		margin-right: 0.54rem;
+		float: left;
+		width: 6.38rem;
+		padding: 0.23rem 0 0.23rem 1rem;
+		height: 0.44rem;
+		border: none;
+		background: #f8f8f8 url("../images/treasure_input_beijing.png") no-repeat 0.36rem 0.23rem;
+		-webkit-background-size: 0.44rem 0.44rem;
+		background-size: 0.44rem 0.44rem;
+		outline: none;
+		font: 600 0.34rem/0.44rem "";
+		border-radius: 70px;
+	}
+	.menu {
+		float: left;
+		display: block;
+		width: 0.6rem;
+		height: 0.9rem;
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+//公共部分属性start----------------------------------------------------------------------------------------
+			.title{
+				padding:0.47rem 0  0.54rem 0;
+				text-align: center;
+				h2{
+					font:700 0.42rem/0.67rem "";
+					color: #333;
+				}
+				span{
+					font:700 0.32rem/0.55rem "";
+					color: #999;
+				}
+				i{
+					margin-top: 0.27rem;
+					margin-left:5.02rem ;
+					display: block;
+					width: 0.75rem;
+					height: 0.03rem;
+					background: #4b8aeb;
+				}
+			}
+			.product {
+				padding: 0 0.48rem;
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				li {
+					flex: 0 0 31.7%;
+					a {
+						letter-spacing: 0.06rem;
+						img {
+							display: block;
+							width: 100%;
+							height: 3.12rem;
+						}
+						p {
+							margin-top: 0.31rem;
+							font: 700 0.36rem/0.55rem "";
+							color: #333;
+						}
+						span {
+							display: block;
+							font: 700 0.28rem/0.38rem "";
+							color: #999;
+							margin-bottom: 0.64rem;
+						}
+					}
+				}
+			}
+			.more{
+				display: block;
+				height: 1.5rem;
+				border-top:0.01rem solid #eee;
+				font:600 0.36rem/1.49rem "";
+				color: #4d8dee;
+				text-align: center;
+			}
+			.fenjiexian{
+				width: 100%;
+				height:0.3rem;
+				background: #f5f5f5;
+			}
+//end---------------------------------------------------------------------------------------------------
+#main{
+	margin-top: 1.64rem;
+	margin-bottom: 1.5rem;
+	.baitiao{
+		padding: 0 0.48rem;
+		.baitiao_t{
+			padding:0.69rem 0 0.94rem ;
+			text-align: center;
+			border-bottom:0.01rem solid #eee;
+			p{
+				letter-spacing: 0.1rem;
+				font:700 0.55rem/0.80rem "";
+				color: #333;
+			}
+			span{
+				font:700 0.36rem/0.6rem "";
+				color: #666;
+			}
+		}
+		.baitiao_b{
+			padding: 0 0.8rem 0.63rem 0.8rem;
+			.clear{
+				padding:0.64rem 0 0.62rem 0;
+				text-align: center;
+				.baitiao_b_l{
+					float: left;
+					p{
+						font:700 0.48rem/0.8rem "";
+						color: #ff8315;
+					}
+					span{
+						font:700 0.36rem/0.68rem "";
+						color: #999;
+					}
+
+				}
+				.baitiao_b_r{
+					float: right;
+					p{
+						font:700 0.48rem/0.8rem "";
+						color: #666;
+					}
+					span{
+						font:700 0.36rem/0.68rem "";
+						color: #999;
+					}
+				}
+			}
+			.jh{
+				text-align: center;
+				display: block;
+				width: 100%;
+				height: 1.35rem;
+				font:700 0.4rem/1.35rem "";
+				color: #fff;
+				background: #4e8dee;
+				border-radius: 10px;
+			}
+		}
+	}
+	.whitebar_banner{
+		ul{
+			li{
+				height: 6.04rem;
+				img{
+					display: block;
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+	.menu{
+		padding:0.6rem 0.48rem 0;
+		ul{
+			display: flex;
+			justify-content: space-between;
+			li{
+				width: 1.98rem;
+				height:1.75rem;
+				img{
+					display: block;
+					width:100%;
+					height:100%;
+				}
+			}
+		}
+		.mingdan{
+			display: block;
+			text-align: center;
+			font:0.38rem/1.91rem "";
+			color: #5188ed;
+			background: url("../images/whitebar_t5.png") no-repeat 2rem 0;
+			background-size:0.4rem 1.91rem;
+		}
+	}
+	.mrmx{
+		padding-bottom:0.86rem;
+		.title{
+			padding:0.47rem 0  0.54rem 0;
+			text-align: center;
+			h2{
+				font:700 0.42rem/0.67rem "";
+				color: #333;
+			}
+			span{
+				font:700 0.32rem/0.55rem "";
+				color: #999;
+			}
+			i{
+				margin-top: 0.27rem;
+				margin-left:5.02rem ;
+				display: block;
+				width: 0.75rem;
+				height: 0.03rem;
+				background: #4b8aeb;
+			}
+		}
+		.mrmx_banner{
+			ul{
+				padding-left: 0.48rem;
+				li{
+					width: 3.12rem;
+					img{
+						display: block;
+						width:3.12rem;
+						height:3.12rem;
+					}
+					p{
+						margin-top: 0.3rem;
+						font:700 0.38rem/0.58rem "";
+						color: #000;
+					}
+					span{
+						font:500 0.3rem/0.44rem "" ;
+						color: #fb841c;
+						i{
+							font-weight:500;
+							color: #999;
+						}
+					}
+				}
+			}
+		}
+	}
+	.baijian{
+		.product{
+			li:first-child{
+				 flex: 0 0 65.854%;
+			 }
+			li:last-child{
+				flex: 0 0 65.854%;
+			}
+		}
+	}
+	.sgzhp{
+		.product{
+			li:first-child{
+				flex: 0 0 65.854%;
+			}
+			li:nth-child(3),li:nth-child(4),li:nth-child(5){
+				a{
+					span{
+						color: #ff8224;
+					}
+				}
+			}
+		}
+	}
+	.fqjx {
+		.product {
+			li:first-child {
+				flex: 0 0 100%;
+			}
+		}
+	}
+	.baiwu{
+
+	}
+	.dszq{
+		.product {
+			padding: 0 0.48rem;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			li {
+				flex: 0 0 48.781%;
+				a {
+					letter-spacing: 0.06rem;
+					img {
+						display: block;
+						width: 100%;
+						height: 4.8rem;
+					}
+					h5{
+						margin-top: 0.31rem;
+						font:700 0.36rem /0.56rem "";
+						color: #333;
+					}
+					p {
+						margin-top: 0;
+						font: 700 0.28rem/0.46rem "";
+						color: #ff7a13;
+						i{
+							font-weight: 700;
+							color: #999;
+						}
+					}
+					span {
+						display: block;
+						font: 700 0.3rem/1.11rem "";
+						color: #999;
+						margin-bottom: 0.64rem;
+					}
+				}
+			}
+		}
+	}
+	.beijing{
+		background:#f5f5f5 ;
+		img{
+			display: block;
+			width: 9.8rem;
+			height:2.8rem;
+		}
+	}
+}
+footer{
+	width: 100%;
+	height: 1.1rem;
+	position: fixed;
+	bottom: 0;
+	padding:0.22rem 0 0.18rem;
+	background: white;
+	border-top:0.01rem solid #f5f5f5;
+	z-index: 999;
+	.module{
+		padding: 0 0.5rem;
+		display: flex;
+		justify-content: space-between;
+		a{
+			img{
+				width: 1.2rem;
+				height:1.1rem;
+			}
+		}
+	}
+}

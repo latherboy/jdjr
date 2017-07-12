@@ -1,0 +1,74 @@
+@charset "utf-8";
+header{
+	height: 1.63rem;
+	padding:0 0.48rem;
+	border-bottom: 0.01rem solid #eee;
+	.back{
+		margin-left: 0.29rem;
+		float: left;
+		display: block;
+		width:0.36rem;
+		height:1.63rem;
+	}
+	p{
+		margin-left: 1.05rem;
+		float: left;
+		font: 700 0.5rem/1.63rem "";
+		color: #666;
+	}
+	.setting{
+		float: right;
+		display: block;
+		width: 0.54rem;
+		height: 1.63rem;
+	}
+	.duigou{
+		margin-right: 1.02rem;
+		float: right;
+		display: block;
+		width: 0.6rem;
+		height: 1.63rem;
+	}
+}
+#main{
+	padding-left:0.48rem;
+	ul{
+		li{
+			padding: 0.45rem 0.48rem 0.44rem 1.68rem;
+			background-size:1.2rem 1.2rem ;
+			border-bottom:0.01rem solid #eee;
+			h3{
+				width: 6.5rem;
+				font:700 0.36rem/0.64rem "";
+				color: #333;
+				float: left;
+			}
+			span{
+				font:600 0.26rem/0.5rem "";
+				color: #999;
+				float: right;
+			}
+			p{
+				font:700 0.36rem/0.56rem "";
+				float: left;
+				color: #999;
+			}
+		}
+		li:nth-child(1){
+			background: url("../images/personalmessage_t3.png") no-repeat 0 0.45rem  ;
+			background-size:1.2rem 1.2rem ;
+		}
+		li:nth-child(2){
+			background: url("../images/personalmessage_t4.png") no-repeat 0 0.45rem  ;
+			background-size:1.2rem 1.2rem ;
+		}
+		li:nth-child(3){
+			background: url("../images/personalmessage_t5.png") no-repeat 0 0.45rem  ;
+			background-size:1.2rem 1.2rem ;
+		}
+		li:nth-child(4){
+			background: url("../images/personalmessage_t6.png") no-repeat 0 0.45rem  ;
+			background-size:1.2rem 1.2rem ;
+		}
+	}
+}

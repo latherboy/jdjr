@@ -2,6 +2,13 @@
 <project version="4">
   <component name="PublishConfigData" serverName="test">
     <serverData>
+      <paths name="sushe">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/jdjr" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="test">
         <serverdata>
           <mappings>
